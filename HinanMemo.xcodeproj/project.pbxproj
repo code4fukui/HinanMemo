@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E148E2B1CC1C67D009F1588 /* Entity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E148E291CC1C67D009F1588 /* Entity+CoreDataProperties.swift */; };
+		6E148E2C1CC1C67D009F1588 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E148E2A1CC1C67D009F1588 /* Entity.swift */; };
+		6ECAC56D1CC1C5D200A37AC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAC56C1CC1C5D200A37AC9 /* AppDelegate.swift */; };
+		6ECAC56F1CC1C5D200A37AC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAC56E1CC1C5D200A37AC9 /* ViewController.swift */; };
+		6ECAC5721CC1C5D200A37AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAC5701CC1C5D200A37AC9 /* Main.storyboard */; };
+		6ECAC5751CC1C5D200A37AC9 /* HinanMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAC5731CC1C5D200A37AC9 /* HinanMemo.xcdatamodeld */; };
+		6ECAC5771CC1C5D200A37AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAC5761CC1C5D200A37AC9 /* Assets.xcassets */; };
+		6ECAC57A1CC1C5D200A37AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ECAC5781CC1C5D200A37AC9 /* LaunchScreen.storyboard */; };
+		6ECAC5851CC1C5D200A37AC9 /* HinanMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAC5841CC1C5D200A37AC9 /* HinanMemoTests.swift */; };
+		6ECAC5901CC1C5D200A37AC9 /* HinanMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECAC58F1CC1C5D200A37AC9 /* HinanMemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ECAC5811CC1C5D200A37AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECAC5611CC1C5D100A37AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECAC5681CC1C5D200A37AC9;
+			remoteInfo = HinanMemo;
+		};
+		6ECAC58C1CC1C5D200A37AC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ECAC5611CC1C5D100A37AC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ECAC5681CC1C5D200A37AC9;
+			remoteInfo = HinanMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E148E291CC1C67D009F1588 /* Entity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6E148E2A1CC1C67D009F1588 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		6ECAC5691CC1C5D200A37AC9 /* HinanMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HinanMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECAC56C1CC1C5D200A37AC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ECAC56E1CC1C5D200A37AC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ECAC5711CC1C5D200A37AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ECAC5741CC1C5D200A37AC9 /* HinanMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HinanMemo.xcdatamodel; sourceTree = "<group>"; };
+		6ECAC5761CC1C5D200A37AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ECAC5791CC1C5D200A37AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ECAC57B1CC1C5D200A37AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECAC5801CC1C5D200A37AC9 /* HinanMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HinanMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECAC5841CC1C5D200A37AC9 /* HinanMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinanMemoTests.swift; sourceTree = "<group>"; };
+		6ECAC5861CC1C5D200A37AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ECAC58B1CC1C5D200A37AC9 /* HinanMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HinanMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ECAC58F1CC1C5D200A37AC9 /* HinanMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HinanMemoUITests.swift; sourceTree = "<group>"; };
+		6ECAC5911CC1C5D200A37AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ECAC5661CC1C5D200A37AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC57D1CC1C5D200A37AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC5881CC1C5D200A37AC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECAC5601CC1C5D100A37AC9 = {
+			isa = PBXGroup;
+			children = (
+				6ECAC56B1CC1C5D200A37AC9 /* HinanMemo */,
+				6ECAC5831CC1C5D200A37AC9 /* HinanMemoTests */,
+				6ECAC58E1CC1C5D200A37AC9 /* HinanMemoUITests */,
+				6ECAC56A1CC1C5D200A37AC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ECAC56A1CC1C5D200A37AC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAC5691CC1C5D200A37AC9 /* HinanMemo.app */,
+				6ECAC5801CC1C5D200A37AC9 /* HinanMemoTests.xctest */,
+				6ECAC58B1CC1C5D200A37AC9 /* HinanMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ECAC56B1CC1C5D200A37AC9 /* HinanMemo */ = {
+			isa = PBXGroup;
+			children = (
+				6E148E291CC1C67D009F1588 /* Entity+CoreDataProperties.swift */,
+				6E148E2A1CC1C67D009F1588 /* Entity.swift */,
+				6ECAC56C1CC1C5D200A37AC9 /* AppDelegate.swift */,
+				6ECAC56E1CC1C5D200A37AC9 /* ViewController.swift */,
+				6ECAC5701CC1C5D200A37AC9 /* Main.storyboard */,
+				6ECAC5761CC1C5D200A37AC9 /* Assets.xcassets */,
+				6ECAC5781CC1C5D200A37AC9 /* LaunchScreen.storyboard */,
+				6ECAC57B1CC1C5D200A37AC9 /* Info.plist */,
+				6ECAC5731CC1C5D200A37AC9 /* HinanMemo.xcdatamodeld */,
+			);
+			path = HinanMemo;
+			sourceTree = "<group>";
+		};
+		6ECAC5831CC1C5D200A37AC9 /* HinanMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAC5841CC1C5D200A37AC9 /* HinanMemoTests.swift */,
+				6ECAC5861CC1C5D200A37AC9 /* Info.plist */,
+			);
+			path = HinanMemoTests;
+			sourceTree = "<group>";
+		};
+		6ECAC58E1CC1C5D200A37AC9 /* HinanMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ECAC58F1CC1C5D200A37AC9 /* HinanMemoUITests.swift */,
+				6ECAC5911CC1C5D200A37AC9 /* Info.plist */,
+			);
+			path = HinanMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ECAC5681CC1C5D200A37AC9 /* HinanMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECAC5941CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemo" */;
+			buildPhases = (
+				6ECAC5651CC1C5D200A37AC9 /* Sources */,
+				6ECAC5661CC1C5D200A37AC9 /* Frameworks */,
+				6ECAC5671CC1C5D200A37AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HinanMemo;
+			productName = HinanMemo;
+			productReference = 6ECAC5691CC1C5D200A37AC9 /* HinanMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ECAC57F1CC1C5D200A37AC9 /* HinanMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECAC5971CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemoTests" */;
+			buildPhases = (
+				6ECAC57C1CC1C5D200A37AC9 /* Sources */,
+				6ECAC57D1CC1C5D200A37AC9 /* Frameworks */,
+				6ECAC57E1CC1C5D200A37AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECAC5821CC1C5D200A37AC9 /* PBXTargetDependency */,
+			);
+			name = HinanMemoTests;
+			productName = HinanMemoTests;
+			productReference = 6ECAC5801CC1C5D200A37AC9 /* HinanMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ECAC58A1CC1C5D200A37AC9 /* HinanMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ECAC59A1CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemoUITests" */;
+			buildPhases = (
+				6ECAC5871CC1C5D200A37AC9 /* Sources */,
+				6ECAC5881CC1C5D200A37AC9 /* Frameworks */,
+				6ECAC5891CC1C5D200A37AC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ECAC58D1CC1C5D200A37AC9 /* PBXTargetDependency */,
+			);
+			name = HinanMemoUITests;
+			productName = HinanMemoUITests;
+			productReference = 6ECAC58B1CC1C5D200A37AC9 /* HinanMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ECAC5611CC1C5D100A37AC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = taisuke;
+				TargetAttributes = {
+					6ECAC5681CC1C5D200A37AC9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A2TF2C92PA;
+					};
+					6ECAC57F1CC1C5D200A37AC9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A2TF2C92PA;
+						TestTargetID = 6ECAC5681CC1C5D200A37AC9;
+					};
+					6ECAC58A1CC1C5D200A37AC9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A2TF2C92PA;
+						TestTargetID = 6ECAC5681CC1C5D200A37AC9;
+					};
+				};
+			};
+			buildConfigurationList = 6ECAC5641CC1C5D100A37AC9 /* Build configuration list for PBXProject "HinanMemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ECAC5601CC1C5D100A37AC9;
+			productRefGroup = 6ECAC56A1CC1C5D200A37AC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ECAC5681CC1C5D200A37AC9 /* HinanMemo */,
+				6ECAC57F1CC1C5D200A37AC9 /* HinanMemoTests */,
+				6ECAC58A1CC1C5D200A37AC9 /* HinanMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ECAC5671CC1C5D200A37AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAC57A1CC1C5D200A37AC9 /* LaunchScreen.storyboard in Resources */,
+				6ECAC5771CC1C5D200A37AC9 /* Assets.xcassets in Resources */,
+				6ECAC5721CC1C5D200A37AC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC57E1CC1C5D200A37AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC5891CC1C5D200A37AC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ECAC5651CC1C5D200A37AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAC5751CC1C5D200A37AC9 /* HinanMemo.xcdatamodeld in Sources */,
+				6E148E2C1CC1C67D009F1588 /* Entity.swift in Sources */,
+				6ECAC56F1CC1C5D200A37AC9 /* ViewController.swift in Sources */,
+				6E148E2B1CC1C67D009F1588 /* Entity+CoreDataProperties.swift in Sources */,
+				6ECAC56D1CC1C5D200A37AC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC57C1CC1C5D200A37AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAC5851CC1C5D200A37AC9 /* HinanMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECAC5871CC1C5D200A37AC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECAC5901CC1C5D200A37AC9 /* HinanMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ECAC5821CC1C5D200A37AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECAC5681CC1C5D200A37AC9 /* HinanMemo */;
+			targetProxy = 6ECAC5811CC1C5D200A37AC9 /* PBXContainerItemProxy */;
+		};
+		6ECAC58D1CC1C5D200A37AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ECAC5681CC1C5D200A37AC9 /* HinanMemo */;
+			targetProxy = 6ECAC58C1CC1C5D200A37AC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ECAC5701CC1C5D200A37AC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECAC5711CC1C5D200A37AC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ECAC5781CC1C5D200A37AC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ECAC5791CC1C5D200A37AC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ECAC5921CC1C5D200A37AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ECAC5931CC1C5D200A37AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ECAC5951CC1C5D200A37AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HinanMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ECAC5961CC1C5D200A37AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HinanMemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6ECAC5981CC1C5D200A37AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HinanMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HinanMemo.app/HinanMemo";
+			};
+			name = Debug;
+		};
+		6ECAC5991CC1C5D200A37AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HinanMemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HinanMemo.app/HinanMemo";
+			};
+			name = Release;
+		};
+		6ECAC59B1CC1C5D200A37AC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HinanMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HinanMemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6ECAC59C1CC1C5D200A37AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HinanMemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.jig.fukuno.HinanMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HinanMemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ECAC5641CC1C5D100A37AC9 /* Build configuration list for PBXProject "HinanMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAC5921CC1C5D200A37AC9 /* Debug */,
+				6ECAC5931CC1C5D200A37AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECAC5941CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAC5951CC1C5D200A37AC9 /* Debug */,
+				6ECAC5961CC1C5D200A37AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECAC5971CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAC5981CC1C5D200A37AC9 /* Debug */,
+				6ECAC5991CC1C5D200A37AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ECAC59A1CC1C5D200A37AC9 /* Build configuration list for PBXNativeTarget "HinanMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ECAC59B1CC1C5D200A37AC9 /* Debug */,
+				6ECAC59C1CC1C5D200A37AC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6ECAC5731CC1C5D200A37AC9 /* HinanMemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6ECAC5741CC1C5D200A37AC9 /* HinanMemo.xcdatamodel */,
+			);
+			currentVersion = 6ECAC5741CC1C5D200A37AC9 /* HinanMemo.xcdatamodel */;
+			path = HinanMemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6ECAC5611CC1C5D100A37AC9 /* Project object */;
+}
