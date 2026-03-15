@@ -1,5 +1,8 @@
 # HinanMemo
-HinanMemo for iOS9 in Swift2.2
+
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
+HinanMemo is an iOS app that allows users to check nearby emergency facility information during disasters.
 
 ## Features
 - Uses CoreData and CoreLocation to store and retrieve emergency facility data near the user's location
